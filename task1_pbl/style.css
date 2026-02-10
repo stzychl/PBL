@@ -107,9 +107,6 @@ button{
 }
 .msg:hover{
     background-color: #989494;
-}
-
-.idFrame:hover{
-      transform: rotateX(7deg) rotateY(-7deg);
 
 }
+
