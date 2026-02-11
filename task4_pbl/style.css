@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Press Start 2P';
+    font-weight: 100px;
+}
+
+
+body{
+    background: #baddf3;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.screen{
+    border: 2px solid rgb(74, 81, 91);
+    height: 500px;
+    width: 300px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 10px 10px #000;
+}
+
+.navSection{
+    position: relative;
+    top: .2px;
+    padding: 20px;
+    height: 1rem;
+  background: linear-gradient(
+        145deg,
+        #8d2f2f 0%,   
+        #dedece 25%, 
+        #b26464 50%,
+        #e4e4db 75%, 
+        #7d4646 100%
+    );
+        align-items: center;
+    
+}
+
+.menu > .img1{
+    position: absolute;
+    left: 1;
+    top: 20px;
+    width: 25px;
+        cursor: pointer;
+}
+
+.menu > .img2{
+    position: absolute;
+    right: 16px;
+    top: 20px;
+    width: 25px;
+        cursor: pointer;
+
+}
+
+#title{
+    text-align: center;
+    
+}
+
+.thumbnail{
+    display: grid;
+    place-items: center;
+}
+.thumbnail > img{
+ width:100%;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-around;
+    width: 100%;
+}
+ul > li{
+    position: relative;
+    bottom:10px;
+
+}
+
+li  img{
+    width : 20px;
+}
+
+.footer img{
+ cursor: pointer;
+}
+
+.pause, .forward, .previous{
+    width: 30px;
+}
+.controls{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:50px
+}
+
+.slider {
+  width: 90%;
+  position: relative;
+  left: 15px;
+  top: 30px;
+  color: #7d4646;
+}
+
+.controls:checked{
+    background: #000;
+}

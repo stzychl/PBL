@@ -1,0 +1,103 @@
+/* *{
+    box-sizing: border-box;
+}
+
+nav{
+
+}
+
+.title{
+    margin-top: 10rem;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+table{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 800;
+      table-layout: fixed; 
+        border-collapse:collapse;
+
+    overflow-x: auto;
+}
+
+th,td{
+    padding: 2px 50px ;
+      vertical-align: middle;   /
+
+}
+
+th{
+    text-align: centers;
+    background-color: rgb(239, 239, 237);
+}
+
+
+img{
+    width: 80px;
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title{
+    text-align: center;
+    padding: 30px;
+}
+
+.bookCtlg {
+    width: 100%;
+    padding: 20px;
+}
+
+table{
+    width : 100%;
+    border-collapse: collapse;
+    border: 2px solid;
+}
+
+th, td{
+    text-align: center;
+    padding: 3px;
+}
+
+.book-cover{
+    width:80px;
+}
+
+
+button:hover {
+  background: rgb(212, 203, 203);
+  color: white;
+  border: 0;;
+}
+
+table{
+    border: px solid black;
+}
+
+th{
+    background: #786ff2;
+    padding: 20px;
+}
+
+button{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(141, 158, 241);
+}

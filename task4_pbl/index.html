@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="screen">
+        <div class="navSection">
+            <div class="menu">
+                <img src="assets/menu.png" class="img1" alt="menu">
+                <img src="assets/loupe.png" class="img2" alt="search">
+            </div>
+            <h2 id="title">CHILLX</h2>
+        </div>
+        <div class="thumbnail">
+            <img src="assets/dol.jpg" alt="song">
+        </div>
+        <div class="player">
+            <input type="range" name="player" class="slider">
+            <audio id='audio' >
+            <source src="./assets/drums_of_liberation.mp3" type="audio/mp3">
+            </audio>
+            <div class="controls">
+                <img src="./assets/rewind-button.png" alt="" class="previous">
+                <img src="./assets/pause-button.png" onclick='document.getElementById("audio").play()' class="pause">
+                <img src="./assets/fast-forward.png" alt="" class="forward">
+            </div>
+        </div>
+        <div class="footer">
+            <ul>
+                <li><img src="./assets/heart.png" alt="like"></li>
+                <li><img src="./assets/shuffle.png" alt="shuffle"></li>
+                <li><img src="./assets/repeat.png" alt="repeat"></li>
+                <li><img src="assets/more.png" alt="more"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
