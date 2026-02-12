@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 4rem;
+    background-color: rgb(224, 200, 170);
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navbar {
+    position: relative;
+    border: 2px solid black;
+    height: 4rem;
+    background: #ffffff;
+    box-shadow: 2px 4px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+
+.navTitle {
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navTitle img {
+    width: 40px;
+
+}
+
+.navTitle>h2 {
+    position: relative;
+}
+
+.navItems {
+    position: absolute;
+    right: 10px;
+}
+
+.navItems ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.myInfo {
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+}
+
+.myData>h3 {
+    color: rgb(241, 241, 236);
+    font-size: 30px;
+}
+
+.myData>h1 {
+    font-size: 45px;
+    white-space: nowrap;
+
+}
+
+.myInfo .photo img {
+    width: 300px;
+}
+
+
+
+.myAbout {
+    position: relative;
+    border: 2px solid black;
+    background: #ffffff;
+    box-shadow: 2px 4px rgb(0, 0, 0);
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.myAbout-inner h2 {
+    position: relative;
+    border: 2px solid black;
+    background: #c2cba1;
+    box-shadow: 4px 5px rgb(0, 0, 0);
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    width: fit-content;
+    line-height: 23px;
+    padding: 10px;
+}
+
+.myAbout-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.myAbout-inner p {
+    position: relative;
+    border: 2px solid black;
+    background: #f8f097;
+    box-shadow: 4px 5px rgb(0, 0, 0);
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 23px;
+    padding: 10px;
+    align-items: stretch;
+}
+
+
+.myAbout h2,
+.myAbout p {
+    margin: 20px;
+
+
+}
+
+@media (max-width: 760px) {
+    .myAbout{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.skillsSection {
+    position: relative;
+    margin-top: 20px;
+    border: 2px solid black;
+    background: #ffffff;
+    box-shadow: 2px 4px rgb(0, 0, 0);
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.skillsSection h2 {
+    position: relative;
+    border: 2px solid black;
+    background: #c2cba1;
+    box-shadow: 4px 5px rgb(0, 0, 0);
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    width: fit-content;
+    line-height: 23px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+.skills-inner{
+    width: 90%;
+}
+
+.skills-inner> p {
+    position: relative;
+    border: 2px solid black;
+    background: #f8f097;
+    box-shadow: 4px 5px rgb(0, 0, 0);
+    align-items: center;
+    box-sizing: border-box;
+    line-height: 23px;
+    padding: 10px;
+    align-items: stretch;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+}
+
+.projects{
+    position: relative;
+    margin-top: 20px;
+    border: 2px solid black;
+    background: #ffffff;
+    box-shadow: 2px 4px rgb(0, 0, 0);
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.projects h2{
+    position: relative;
+    border: 2px solid black;
+    background: #c2cba1;
+    box-shadow: 4px 5px rgb(0, 0, 0);
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    width: fit-content;
+    line-height: 23px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/**Spin ideas. Discover perspectives.
+A playful space where curiosity meets creativity.*/
+
+.projects{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.projects .thinkersWheel > p, .quotedd > p{
+    position: relative;
+    border: 2px solid black;
+    background: #f8f097;
+    box-shadow: 4px 5px rgb(0, 0, 0);
+    align-items: center;
+    box-sizing: border-box;
+    line-height: 23px;
+    padding: 10px;
+    align-items: stretch;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+}
+
+button{
+    margin: 10px;
+    padding: 15px;
+    background: #b0d87c;
+    box-shadow: 2px 4px #5b5b59;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+button:active{
+    margin: 10px;
+    padding: 15px;
+    background: #b0d87c;
+    box-shadow: -2px -4px #5b5b59;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+/* 
+.Contact{
+      position: relative;
+      margin-top:20px;
+    border: 2px solid black;
+    background: #f79c51;
+    box-shadow: 4px 5px rgb(0, 0, 0);
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    width: fit-content;
+    line-height: 23px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.Contact .card{
+
+} */
