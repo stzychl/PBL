@@ -7,7 +7,6 @@
 body {
     margin: 40px;
     display: grid;
-    overflow-y: hidden;
     font-family: "Exo 2", Helvetica, sans-serif;
     background: linear-gradient(90deg, rgb(242, 239, 239) 0%, rgba(209, 27, 58, 1) 0%, rgb(241, 238, 238) 0%, rgb(206, 217, 234) 70%, rgb(224, 226, 228) 100%);
 
