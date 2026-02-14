@@ -32,7 +32,8 @@
             </audio>
             <div class="controls">
                 <img src="./assets/rewind-button.png" alt="" class="previous">
-                <img src="./assets/pause-button.png" onclick='document.getElementById("audio").play()' class="pause">
+                <img src="./assets/pause-button.png" onclick='pause()' class="pause">
+                <img src="./assets/play.png" onclick='play()' class="play">
                 <img src="./assets/fast-forward.png" alt="" class="forward">
             </div>
         </div>
@@ -45,6 +46,25 @@
             </ul>
         </div>
     </div>
+
+    <script>
+        function play(){
+           
+                document.getElementById("audio").play()
+
+                document.querySelector('.play').style.display='none';
+                document.querySelector('.pause').style.display='inherit';
+
+        }
+         function pause(){
+           
+                document.getElementById("audio").pause()
+
+                document.querySelector('.pause').style.display='none';
+                                document.querySelector('.play').style.display='inherit';
+
+        }
+    </script>
 </body>
 
 </html>
