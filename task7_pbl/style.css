@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 40px;
+    display: grid;
+    overflow-y: hidden;
+    font-family: "Exo 2", Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgb(242, 239, 239) 0%, rgba(209, 27, 58, 1) 0%, rgb(241, 238, 238) 0%, rgb(206, 217, 234) 70%, rgb(224, 226, 228) 100%);
+
+}
+
+
+.title {
+    margin: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+hr {
+    height: 4px;
+    background: #c4bbfb;
+    filter: blur(.6px);
+}
+
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Glass {
+    margin: 20px;
+    padding: 20px;
+
+    width: fit-content;
+    backdrop-filter: blur(40px) saturate(200%);
+    background-color: rgba(196, 197, 199, 0.55);
+    border-radius: 12px;
+    border: 1px solid rgba(167, 162, 162, 0.125);
+}
+
+.Glass p {
+    line-height: 30px;
+}
+
+th,
+td {
+    border: 2px solid rgb(214, 218, 228);
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+table {
+    
+    border-collapse: collapse;
+    color: rgb(67, 66, 66);
+    text-shadow: 1px 1.5px#d8d5e7;
+    backdrop-filter: blur(40px) saturate(200%);
+    background-color: rgba(179, 183, 190, 0.55);
+    border-radius: 20px;
+    border: 1px solid rgba(167, 162, 162, 0.125);
+}
+
+tr:nth-child(2) td {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 15px;
+  border: none;
+}
+
+tr:nth-child(even) td {
+  border-top: 1px solid #97989a;
+  border-bottom: 1px solid #97989a;
+}
+tr:nth-child(4) td{
+    border-bottom: none;
+}
+
+
+td:nth-child(3){
+    border-left: 2px solid #97989a;
+}
+th:nth-child(3){
+    border-left: 2px solid #97989a;
+}
+th:nth-child(2){
+    border-left: 2px solid #97989a;
+}
+td:nth-child(2){
+    border-left: 2px solid #97989a;
+}
+
+
+.register {
+    text-align: center;
+    margin: 4em;
+    
+}
+.register button{
+    padding: 10px;
+    background: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-radius: 3px;
+    transition: all .3s ease;
+}
+
+
+
+.register button:hover{
+    transform: scale(1.1);
+}
+
+.register button:active{
+    background: #000;
+    color: #fff;
+}

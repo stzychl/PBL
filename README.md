@@ -11,3 +11,5 @@ TASK Git Based
 [TASK5](https://stzychl.github.io/PBL/task5_pbl/)
 <br/>
 [TASK6](https://stzychl.github.io/PBL/task6_pbl/)
+<br/>
+[TASK7](https://stzychl.github.io/PBL/task7_pbl/)
