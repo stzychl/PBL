@@ -90,7 +90,7 @@ a{
     justify-content:center;
     align-items:center;
 
-    background: rgba(0,0,0,0.6); /* 🔥 DIM EFFECT */
+    background: rgba(0,0,0,0.6); /* DIM  */
 
     opacity:0;
     pointer-events:none;
